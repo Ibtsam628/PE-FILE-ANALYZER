@@ -1,0 +1,2850 @@
+{
+  "hashes": {
+    "md5": "2ed8c641145dd8ba9ecc16ec402b6482",
+    "sha1": "0b20c0e6efb2925eba4f009bba40fc13c8e2ae9e",
+    "sha256": "47ab0c18478e38354ca2bbc9b090ce3b6a153f632290c2368673d68f2217326e"
+  },
+  "headers": {
+    "machine": "0x8664",
+    "number_of_sections": 15,
+    "time_date_stamp": "2025-02-06 04:09:22",
+    "characteristics": "0x22",
+    "entry_point": "0x46f3960",
+    "image_base": "0x140000000",
+    "subsystem": 2
+  },
+  "sections": [
+    {
+      "name": ".text",
+      "virtual_address": "0x1000",
+      "virtual_size": 151599916,
+      "raw_size": 151600128,
+      "entropy": 6.57,
+      "is_packed": false
+    },
+    {
+      "name": ".rdata",
+      "virtual_address": "0x9095000",
+      "virtual_size": 24514512,
+      "raw_size": 24514560,
+      "entropy": 6.33,
+      "is_packed": false
+    },
+    {
+      "name": ".data",
+      "virtual_address": "0xa7f6000",
+      "virtual_size": 4844356,
+      "raw_size": 667648,
+      "entropy": 4.63,
+      "is_packed": false
+    },
+    {
+      "name": ".pdata",
+      "virtual_address": "0xac95000",
+      "virtual_size": 4615116,
+      "raw_size": 4615168,
+      "entropy": 6.9,
+      "is_packed": false
+    },
+    {
+      "name": ".gxfg",
+      "virtual_address": "0xb0fc000",
+      "virtual_size": 16592,
+      "raw_size": 16896,
+      "entropy": 5.17,
+      "is_packed": false
+    },
+    {
+      "name": ".retplne",
+      "virtual_address": "0xb101000",
+      "virtual_size": 240,
+      "raw_size": 512,
+      "entropy": 2.0,
+      "is_packed": false
+    },
+    {
+      "name": ".rodata",
+      "virtual_address": "0xb102000",
+      "virtual_size": 4576,
+      "raw_size": 4608,
+      "entropy": 4.59,
+      "is_packed": false
+    },
+    {
+      "name": ".tls",
+      "virtual_address": "0xb104000",
+      "virtual_size": 1529,
+      "raw_size": 1536,
+      "entropy": 0.21,
+      "is_packed": false
+    },
+    {
+      "name": "CPADinfo",
+      "virtual_address": "0xb105000",
+      "virtual_size": 56,
+      "raw_size": 512,
+      "entropy": 0.12,
+      "is_packed": false
+    },
+    {
+      "name": "LZMADEC",
+      "virtual_address": "0xb106000",
+      "virtual_size": 4593,
+      "raw_size": 4608,
+      "entropy": 6.06,
+      "is_packed": false
+    },
+    {
+      "name": "_RDATA",
+      "virtual_address": "0xb108000",
+      "virtual_size": 500,
+      "raw_size": 512,
+      "entropy": 4.4,
+      "is_packed": false
+    },
+    {
+      "name": "malloc_h",
+      "virtual_address": "0xb109000",
+      "virtual_size": 228,
+      "raw_size": 512,
+      "entropy": 3.65,
+      "is_packed": false
+    },
+    {
+      "name": "prot",
+      "virtual_address": "0xb10a000",
+      "virtual_size": 147,
+      "raw_size": 512,
+      "entropy": 0.0,
+      "is_packed": false
+    },
+    {
+      "name": ".rsrc",
+      "virtual_address": "0xb10b000",
+      "virtual_size": 114420,
+      "raw_size": 114688,
+      "entropy": 3.49,
+      "is_packed": false
+    },
+    {
+      "name": ".reloc",
+      "virtual_address": "0xb127000",
+      "virtual_size": 970616,
+      "raw_size": 970752,
+      "entropy": 5.48,
+      "is_packed": false
+    }
+  ],
+  "imports": [
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_buffer_create"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_buffer_get_opaque"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_dict_free"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_dict_get"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_dict_set"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_frame_alloc"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_frame_free"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_frame_unref"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_free"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_get_bytes_per_sample"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_get_cpu_flags"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_image_check_size"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_log_set_level"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_malloc"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_max_alloc"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_new_packet"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_packet_alloc"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_packet_copy_props"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_packet_free"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_packet_get_side_data"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_packet_unref"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_read_frame"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_rescale_q"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_samples_get_buffer_size"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_seek_frame"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_strdup"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_stream_get_first_dts"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "av_strerror"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avcodec_align_dimensions"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avcodec_alloc_context3"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avcodec_descriptor_get"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avcodec_find_decoder"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avcodec_flush_buffers"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avcodec_free_context"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avcodec_open2"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avcodec_parameters_to_context"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avcodec_receive_frame"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avcodec_send_packet"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avformat_alloc_context"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avformat_close_input"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avformat_find_stream_info"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avformat_free_context"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avformat_open_input"
+    },
+    {
+      "dll": "ffmpeg.dll",
+      "function": "avio_alloc_context"
+    },
+    {
+      "dll": "dbghelp.dll",
+      "function": "MiniDumpWriteDump"
+    },
+    {
+      "dll": "dbghelp.dll",
+      "function": "StackWalk64"
+    },
+    {
+      "dll": "dbghelp.dll",
+      "function": "SymCleanup"
+    },
+    {
+      "dll": "dbghelp.dll",
+      "function": "SymFromAddr"
+    },
+    {
+      "dll": "dbghelp.dll",
+      "function": "SymFunctionTableAccess64"
+    },
+    {
+      "dll": "dbghelp.dll",
+      "function": "SymGetLineFromAddr64"
+    },
+    {
+      "dll": "dbghelp.dll",
+      "function": "SymGetModuleBase64"
+    },
+    {
+      "dll": "dbghelp.dll",
+      "function": "SymGetOptions"
+    },
+    {
+      "dll": "dbghelp.dll",
+      "function": "SymGetSearchPathW"
+    },
+    {
+      "dll": "dbghelp.dll",
+      "function": "SymInitialize"
+    },
+    {
+      "dll": "dbghelp.dll",
+      "function": "SymSetOptions"
+    },
+    {
+      "dll": "dbghelp.dll",
+      "function": "SymSetSearchPathW"
+    },
+    {
+      "dll": "dbghelp.dll",
+      "function": "UnDecorateSymbolName"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "LoadRegTypeLib"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "LoadTypeLib"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "SafeArrayAccessData"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "SafeArrayCreateVector"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "SafeArrayDestroy"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "SafeArrayGetDim"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "SafeArrayGetLBound"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "SafeArrayGetUBound"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "SafeArrayGetVartype"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "SafeArrayPutElement"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "SafeArrayUnaccessData"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "SysAllocString"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "SysAllocStringLen"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "SysFreeString"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "SysStringLen"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "VarBstrCmp"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "VarUI4FromStr"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "VariantClear"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "VariantCopy"
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "function": "VariantInit"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiInAddBuffer"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiInClose"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiInGetDevCapsW"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiInGetNumDevs"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiInOpen"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiInPrepareHeader"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiInReset"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiInStart"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiInUnprepareHeader"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiOutClose"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiOutGetDevCapsW"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiOutGetNumDevs"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiOutLongMsg"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiOutOpen"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiOutPrepareHeader"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiOutReset"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiOutShortMsg"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "midiOutUnprepareHeader"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "timeBeginPeriod"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "timeEndPeriod"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "timeGetTime"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "waveInGetNumDevs"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "waveOutClose"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "waveOutGetNumDevs"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "waveOutOpen"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "waveOutPause"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "waveOutPrepareHeader"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "waveOutReset"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "waveOutRestart"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "waveOutUnprepareHeader"
+    },
+    {
+      "dll": "WINMM.dll",
+      "function": "waveOutWrite"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "FreeAddrInfoW"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "GetAddrInfoW"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "GetNameInfoW"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSACloseEvent"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSACreateEvent"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSADuplicateSocketW"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSAEnumNetworkEvents"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSAEnumProtocolsW"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSAEventSelect"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSAGetLastError"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSAGetOverlappedResult"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSAIoctl"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSALookupServiceBeginW"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSALookupServiceEnd"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSALookupServiceNextW"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSARecv"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSARecvFrom"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSAResetEvent"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSASend"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSASendTo"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSASetEvent"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSASetLastError"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSASetServiceW"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSASocketW"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSAStartup"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "WSAWaitForMultipleEvents"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "__WSAFDIsSet"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "accept"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "bind"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "closesocket"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "connect"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "freeaddrinfo"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "getaddrinfo"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "gethostname"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "getpeername"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "getsockname"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "getsockopt"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "htonl"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "htons"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "inet_ntop"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "ioctlsocket"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "listen"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "ntohl"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "ntohs"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "recv"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "recvfrom"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "select"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "send"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "sendto"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "setsockopt"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "shutdown"
+    },
+    {
+      "dll": "WS2_32.dll",
+      "function": "socket"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "AcquireSRWLockExclusive"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "AcquireSRWLockShared"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "AddVectoredExceptionHandler"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "AllocConsole"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "AreFileApisANSI"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "AssignProcessToJobObject"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "AttachConsole"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CancelIo"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CancelIoEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CancelSynchronousIo"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CheckRemoteDebuggerPresent"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ClearCommError"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CloseHandle"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CompareStringW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ConnectNamedPipe"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CopyFileW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateDirectoryW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateEventA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateEventW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateFileA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateFileMappingW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateFileW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateHardLinkW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateIoCompletionPort"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateJobObjectW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateMutexW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateNamedPipeA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateNamedPipeW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreatePipe"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateProcessW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateRemoteThread"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateSemaphoreA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateSemaphoreW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateSymbolicLinkW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateThread"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateToolhelp32Snapshot"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "CreateWaitableTimerExW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "DebugBreak"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "DecodePointer"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "DeleteCriticalSection"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "DeleteFileA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "DeleteFileW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "DeleteProcThreadAttributeList"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "DeviceIoControl"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "DiscardVirtualMemory"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "DisconnectNamedPipe"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "DuplicateHandle"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "EncodePointer"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "EnterCriticalSection"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "EnumResourceNamesW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "EnumSystemLocalesEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "EnumSystemLocalesW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "EscapeCommFunction"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ExitProcess"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ExitThread"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ExpandEnvironmentStringsA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ExpandEnvironmentStringsW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FileTimeToSystemTime"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FillConsoleOutputAttribute"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FillConsoleOutputCharacterW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FindClose"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FindFirstFileA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FindFirstFileExW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FindFirstFileW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FindNextFileA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FindNextFileW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FindResourceA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FindResourceW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FlsAlloc"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FlsFree"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FlsGetValue"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FlsSetValue"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FlushFileBuffers"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FlushInstructionCache"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FlushViewOfFile"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FormatMessageA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FormatMessageW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FreeEnvironmentStringsW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FreeLibrary"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "FreeLibraryAndExitThread"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetACP"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetCPInfo"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetCommModemStatus"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetCommState"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetCommandLineA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetCommandLineW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetComputerNameExW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetConsoleCursorInfo"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetConsoleMode"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetConsoleOutputCP"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetConsoleScreenBufferInfo"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetConsoleTitleW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetCurrencyFormatEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetCurrentDirectoryW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetCurrentProcess"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetCurrentProcessId"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetCurrentProcessorNumber"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetCurrentThread"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetCurrentThreadId"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetDateFormatEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetDateFormatW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetDiskFreeSpaceA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetDiskFreeSpaceExW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetDiskFreeSpaceW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetDriveTypeW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetDynamicTimeZoneInformation"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetEnvironmentStringsW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetEnvironmentVariableA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetEnvironmentVariableW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetErrorMode"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetExitCodeProcess"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetFileAttributesA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetFileAttributesExW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetFileAttributesW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetFileInformationByHandle"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetFileInformationByHandleEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetFileSize"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetFileSizeEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetFileTime"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetFileType"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetFinalPathNameByHandleW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetFullPathNameA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetFullPathNameW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetGeoInfoW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetLastError"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetLocalTime"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetLocaleInfoEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetLocaleInfoW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetLogicalDriveStringsW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetLogicalProcessorInformation"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetLogicalProcessorInformationEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetLongPathNameW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetMaximumProcessorCount"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetMaximumProcessorGroupCount"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetModuleFileNameA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetModuleFileNameW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetModuleHandleA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetModuleHandleExA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetModuleHandleExW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetModuleHandleW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetNamedPipeClientProcessId"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetNamedPipeHandleStateW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetNamedPipeServerProcessId"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetNativeSystemInfo"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetNumberFormatEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetNumberOfConsoleInputEvents"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetOEMCP"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetOverlappedResult"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetPackageFamilyName"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetPriorityClass"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetPrivateProfileStringW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetProcAddress"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetProcessAffinityMask"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetProcessHandleCount"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetProcessHeap"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetProcessHeaps"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetProcessId"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetProcessInformation"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetProcessIoCounters"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetProcessMitigationPolicy"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetProcessTimes"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetProductInfo"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetQueuedCompletionStatus"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetQueuedCompletionStatusEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetShortPathNameW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetStartupInfoW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetStdHandle"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetStringTypeW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetSystemDefaultLCID"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetSystemDirectoryW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetSystemInfo"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetSystemPowerStatus"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetSystemTime"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetSystemTimeAsFileTime"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetSystemTimePreciseAsFileTime"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetTempFileNameA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetTempPathA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetTempPathW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetThreadContext"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetThreadGroupAffinity"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetThreadId"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetThreadLocale"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetThreadPreferredUILanguages"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetThreadPriority"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetThreadPriorityBoost"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetThreadTimes"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetTickCount"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetTickCount64"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetTimeFormatEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetTimeFormatW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetTimeZoneInformation"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetUserDefaultLCID"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetUserDefaultLangID"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetUserDefaultLocaleName"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetUserDefaultUILanguage"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetUserGeoID"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetVersionExW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetVolumeInformationW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetVolumePathNameW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GetWindowsDirectoryW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GlobalAlloc"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GlobalFree"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GlobalLock"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GlobalMemoryStatusEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GlobalSize"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "GlobalUnlock"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "HeapAlloc"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "HeapCompact"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "HeapCreate"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "HeapDestroy"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "HeapFree"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "HeapLock"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "HeapReAlloc"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "HeapSetInformation"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "HeapSize"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "HeapUnlock"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "HeapValidate"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "HeapWalk"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "InitOnceBeginInitialize"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "InitOnceComplete"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "InitOnceExecuteOnce"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "InitializeConditionVariable"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "InitializeCriticalSection"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "InitializeCriticalSectionAndSpinCount"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "InitializeCriticalSectionEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "InitializeProcThreadAttributeList"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "InitializeSListHead"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "InitializeSRWLock"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "InterlockedPopEntrySList"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "InterlockedPushEntrySList"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "IsDebuggerPresent"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "IsProcessorFeaturePresent"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "IsValidCodePage"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "IsValidLocale"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "IsWow64Process"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "K32EnumProcessModules"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "K32GetModuleBaseNameW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "K32GetModuleFileNameExW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "K32GetModuleInformation"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "K32GetPerformanceInfo"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "K32GetProcessMemoryInfo"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "K32QueryWorkingSetEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "LCIDToLocaleName"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "LCMapStringW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "LeaveCriticalSection"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "LoadLibraryA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "LoadLibraryExA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "LoadLibraryExW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "LoadLibraryW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "LoadResource"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "LocalAlloc"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "LocalFree"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "LocaleNameToLCID"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "LockFile"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "LockFileEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "LockResource"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "MapViewOfFile"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "MapViewOfFileEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "MoveFileExW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "MoveFileW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "MultiByteToWideChar"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "OpenFileMappingW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "OpenProcess"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "OpenThread"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "OutputDebugStringA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "OutputDebugStringW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "PeekNamedPipe"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "PostQueuedCompletionStatus"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "PowerClearRequest"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "PowerCreateRequest"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "PowerSetRequest"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "PrefetchVirtualMemory"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "Process32FirstW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "Process32NextW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ProcessIdToSessionId"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "PurgeComm"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "QueryDosDeviceW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "QueryFullProcessImageNameW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "QueryInformationJobObject"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "QueryPerformanceCounter"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "QueryPerformanceFrequency"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "QueryProcessCycleTime"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "QueryThreadCycleTime"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "QueueUserWorkItem"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "RaiseException"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ReOpenFile"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ReadConsoleInputW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ReadConsoleW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ReadDirectoryChangesW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ReadFile"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ReadProcessMemory"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "RegisterWaitForSingleObject"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ReleaseMutex"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ReleaseSRWLockExclusive"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ReleaseSRWLockShared"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ReleaseSemaphore"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "RemoveDirectoryW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "RemoveVectoredExceptionHandler"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ReplaceFileW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ResetEvent"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ResolveLocaleName"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "ResumeThread"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "RtlAddFunctionTable"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "RtlCaptureContext"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "RtlCaptureStackBackTrace"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "RtlDeleteFunctionTable"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "RtlLookupFunctionEntry"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "RtlPcToFileHeader"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "RtlUnwind"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "RtlUnwindEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "RtlVirtualUnwind"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetCommState"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetCommTimeouts"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetConsoleCtrlHandler"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetConsoleCursorInfo"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetConsoleCursorPosition"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetConsoleMode"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetConsoleTextAttribute"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetConsoleTitleW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetCurrentDirectoryW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetDefaultDllDirectories"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetEndOfFile"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetEnvironmentVariableA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetEnvironmentVariableW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetErrorMode"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetEvent"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetFileAttributesW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetFileCompletionNotificationModes"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetFileInformationByHandle"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetFilePointer"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetFilePointerEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetFileTime"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetHandleInformation"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetInformationJobObject"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetLastError"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetNamedPipeHandleState"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetPriorityClass"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetProcessInformation"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetProcessMitigationPolicy"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetProcessShutdownParameters"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetStdHandle"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetThreadAffinityMask"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetThreadInformation"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetThreadPriority"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetThreadPriorityBoost"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetUnhandledExceptionFilter"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SetWaitableTimer"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SizeofResource"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "Sleep"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SleepConditionVariableCS"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SleepConditionVariableSRW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SleepEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SuspendThread"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SwitchToThread"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SystemTimeToFileTime"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "SystemTimeToTzSpecificLocalTime"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "TerminateJobObject"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "TerminateProcess"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "TlsAlloc"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "TlsFree"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "TlsGetValue"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "TlsSetValue"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "TransactNamedPipe"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "TryAcquireSRWLockExclusive"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "TryAcquireSRWLockShared"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "TryEnterCriticalSection"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "TzSpecificLocalTimeToSystemTime"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "UnhandledExceptionFilter"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "UnlockFile"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "UnlockFileEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "UnmapViewOfFile"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "UnregisterWait"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "UnregisterWaitEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "UpdateProcThreadAttribute"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "VerSetConditionMask"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "VerifyVersionInfoW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "VirtualAlloc"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "VirtualAllocEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "VirtualFree"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "VirtualFreeEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "VirtualProtect"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "VirtualProtectEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "VirtualQuery"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "VirtualQueryEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "WTSGetActiveConsoleSessionId"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "WaitForMultipleObjects"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "WaitForSingleObject"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "WaitForSingleObjectEx"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "WaitNamedPipeW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "WakeAllConditionVariable"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "WakeConditionVariable"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "WerRegisterRuntimeExceptionModule"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "WideCharToMultiByte"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "Wow64GetThreadContext"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "WriteConsoleInputW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "WriteConsoleW"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "WriteFile"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "WriteProcessMemory"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "lstrcmpiA"
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "function": "lstrcmpiW"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertAddCertificateContextToStore"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertAddEncodedCertificateToStore"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertAddStoreToCollection"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertCloseStore"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertCompareCertificateName"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertControlStore"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertEnumCertificatesInStore"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertFindCertificateInStore"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertFindChainInStore"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertFreeCertificateChain"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertFreeCertificateContext"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertGetCertificateChain"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertGetCertificateContextProperty"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertGetEnhancedKeyUsage"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertGetIntendedKeyUsage"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertGetNameStringW"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertOpenStore"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertOpenSystemStoreW"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CertVerifyTimeValidity"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CryptAcquireCertificatePrivateKey"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CryptMsgClose"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CryptMsgGetParam"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CryptProtectData"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CryptProtectMemory"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CryptQueryObject"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CryptUnprotectData"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CryptUnprotectMemory"
+    },
+    {
+      "dll": "CRYPT32.dll",
+      "function": "CryptVerifyCertificateSignatureEx"
+    },
+    {
+      "dll": "IPHLPAPI.DLL",
+      "function": "CancelIPChangeNotify"
+    },
+    {
+      "dll": "IPHLPAPI.DLL",
+      "function": "CancelMibChangeNotify2"
+    },
+    {
+      "dll": "IPHLPAPI.DLL",
+      "function": "ConvertInterfaceIndexToLuid"
+    },
+    {
+      "dll": "IPHLPAPI.DLL",
+      "function": "ConvertInterfaceLuidToNameW"
+    },
+    {
+      "dll": "IPHLPAPI.DLL",
+      "function": "GetAdaptersAddresses"
+    },
+    {
+      "dll": "IPHLPAPI.DLL",
+      "function": "GetBestRoute2"
+    },
+    {
+      "dll": "IPHLPAPI.DLL",
+      "function": "GetInterfaceInfo"
+    },
+    {
+      "dll": "IPHLPAPI.DLL",
+      "function": "IpReleaseAddress"
+    },
+    {
+      "dll": "IPHLPAPI.DLL",
+      "function": "IpRenewAddress"
+    },
+    {
+      "dll": "IPHLPAPI.DLL",
+      "function": "NotifyAddrChange"
+    },
+    {
+      "dll": "IPHLPAPI.DLL",
+      "function": "NotifyIpInterfaceChange"
+    },
+    {
+      "dll": "IPHLPAPI.DLL",
+      "function": "if_indextoname"
+    },
+    {
+      "dll": "IPHLPAPI.DLL",
+      "function": "if_nametoindex"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "function": "CryptCATAdminAcquireContext"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "function": "CryptCATAdminCalcHashFromFileHandle"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "function": "CryptCATAdminEnumCatalogFromHash"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "function": "CryptCATAdminReleaseCatalogContext"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "function": "CryptCATAdminReleaseContext"
+    },
+    {
+      "dll": "WINTRUST.dll",
+      "function": "CryptCATCatalogInfoFromContext"
+    },
+    {
+      "dll": "ntdll.dll",
+      "function": "NtDeleteKey"
+    },
+    {
+      "dll": "ntdll.dll",
+      "function": "NtQueryInformationThread"
+    },
+    {
+      "dll": "ntdll.dll",
+      "function": "NtQueryObject"
+    },
+    {
+      "dll": "ntdll.dll",
+      "function": "RtlInitUnicodeString"
+    },
+    {
+      "dll": "USERENV.dll",
+      "function": "CreateEnvironmentBlock"
+    },
+    {
+      "dll": "USERENV.dll",
+      "function": "DeriveAppContainerSidFromAppContainerName"
+    },
+    {
+      "dll": "USERENV.dll",
+      "function": "DestroyEnvironmentBlock"
+    },
+    {
+      "dll": "USERENV.dll",
+      "function": "GetUserProfileDirectoryW"
+    },
+    {
+      "dll": "VERSION.dll",
+      "function": "GetFileVersionInfoSizeW"
+    },
+    {
+      "dll": "VERSION.dll",
+      "function": "GetFileVersionInfoW"
+    },
+    {
+      "dll": "VERSION.dll",
+      "function": "VerQueryValueW"
+    },
+    {
+      "dll": "DWrite.dll",
+      "function": "DWriteCreateFactory"
+    },
+    {
+      "dll": "Secur32.dll",
+      "function": "AcquireCredentialsHandleW"
+    },
+    {
+      "dll": "Secur32.dll",
+      "function": "DeleteSecurityContext"
+    },
+    {
+      "dll": "Secur32.dll",
+      "function": "FreeContextBuffer"
+    },
+    {
+      "dll": "Secur32.dll",
+      "function": "FreeCredentialsHandle"
+    },
+    {
+      "dll": "Secur32.dll",
+      "function": "InitializeSecurityContextW"
+    },
+    {
+      "dll": "Secur32.dll",
+      "function": "QueryContextAttributesW"
+    },
+    {
+      "dll": "Secur32.dll",
+      "function": "QuerySecurityPackageInfoW"
+    },
+    {
+      "dll": "WINHTTP.dll",
+      "function": "WinHttpAddRequestHeaders"
+    },
+    {
+      "dll": "WINHTTP.dll",
+      "function": "WinHttpCloseHandle"
+    },
+    {
+      "dll": "WINHTTP.dll",
+      "function": "WinHttpConnect"
+    },
+    {
+      "dll": "WINHTTP.dll",
+      "function": "WinHttpCrackUrl"
+    },
+    {
+      "dll": "WINHTTP.dll",
+      "function": "WinHttpGetIEProxyConfigForCurrentUser"
+    },
+    {
+      "dll": "WINHTTP.dll",
+      "function": "WinHttpGetProxyForUrl"
+    },
+    {
+      "dll": "WINHTTP.dll",
+      "function": "WinHttpOpen"
+    },
+    {
+      "dll": "WINHTTP.dll",
+      "function": "WinHttpOpenRequest"
+    },
+    {
+      "dll": "WINHTTP.dll",
+      "function": "WinHttpQueryHeaders"
+    },
+    {
+      "dll": "WINHTTP.dll",
+      "function": "WinHttpReadData"
+    },
+    {
+      "dll": "WINHTTP.dll",
+      "function": "WinHttpReceiveResponse"
+    },
+    {
+      "dll": "WINHTTP.dll",
+      "function": "WinHttpSendRequest"
+    },
+    {
+      "dll": "WINHTTP.dll",
+      "function": "WinHttpSetTimeouts"
+    },
+    {
+      "dll": "WINHTTP.dll",
+      "function": "WinHttpWriteData"
+    },
+    {
+      "dll": "dhcpcsvc.DLL",
+      "function": "DhcpCApiInitialize"
+    },
+    {
+      "dll": "dhcpcsvc.DLL",
+      "function": "DhcpRequestParams"
+    }
+  ],
+  "suspicious_apis": [
+    {
+      "category": "Network",
+      "api": "WSAStartup",
+      "dll": "WS2_32.dll"
+    },
+    {
+      "category": "Network",
+      "api": "connect",
+      "dll": "WS2_32.dll"
+    },
+    {
+      "category": "Network",
+      "api": "recv",
+      "dll": "WS2_32.dll"
+    },
+    {
+      "category": "Network",
+      "api": "send",
+      "dll": "WS2_32.dll"
+    },
+    {
+      "category": "Network",
+      "api": "socket",
+      "dll": "WS2_32.dll"
+    },
+    {
+      "category": "Evasion",
+      "api": "CheckRemoteDebuggerPresent",
+      "dll": "KERNEL32.dll"
+    },
+    {
+      "category": "Process Injection",
+      "api": "CreateRemoteThread",
+      "dll": "KERNEL32.dll"
+    },
+    {
+      "category": "Evasion",
+      "api": "GetTickCount",
+      "dll": "KERNEL32.dll"
+    },
+    {
+      "category": "Evasion",
+      "api": "IsDebuggerPresent",
+      "dll": "KERNEL32.dll"
+    },
+    {
+      "category": "Process Injection",
+      "api": "OpenProcess",
+      "dll": "KERNEL32.dll"
+    },
+    {
+      "category": "Process Injection",
+      "api": "ReadProcessMemory",
+      "dll": "KERNEL32.dll"
+    },
+    {
+      "category": "Evasion",
+      "api": "Sleep",
+      "dll": "KERNEL32.dll"
+    },
+    {
+      "category": "Process Injection",
+      "api": "VirtualAllocEx",
+      "dll": "KERNEL32.dll"
+    },
+    {
+      "category": "Evasion",
+      "api": "VirtualProtect",
+      "dll": "KERNEL32.dll"
+    },
+    {
+      "category": "Process Injection",
+      "api": "WriteProcessMemory",
+      "dll": "KERNEL32.dll"
+    },
+    {
+      "category": "Network",
+      "api": "WinHttpOpen",
+      "dll": "WINHTTP.dll"
+    }
+  ],
+  "strings": {
+    "total_strings": 1000,
+    "urls": [],
+    "ips": [],
+    "file_paths": [],
+    "sample_strings": [
+      "!This program cannot be run in DOS mode.$",
+      ".text",
+      "`.rdata",
+      "@.data",
+      ".pdata",
+      "@.gxfg",
+      "@.retplne",
+      ".rodata",
+      "`.tls",
+      "CPADinfo8",
+      "LZMADEC",
+      "`_RDATA",
+      "@malloc_h",
+      "`prot",
+      "@.rsrc",
+      "@.reloc",
+      "M(VWH",
+      "HcU(HcM0f",
+      "HcU(HcM0",
+      "o4$H",
+      "HcU(HcM0",
+      "o4$H",
+      "M(VWH",
+      "HcU(HcM0f",
+      "HcU(HcM0",
+      "o4$H",
+      "HcU(HcM0",
+      "o4$H",
+      "M(VWH",
+      "HcU(HcM0",
+      "HcU(HcM0",
+      "o4$H",
+      "HcU(HcM0",
+      "o4$H",
+      "M(VWH",
+      "HcU(HcM0",
+      "HcU(HcM0",
+      "o4$H",
+      "HcU(HcM0",
+      "o4$H",
+      "M(VWH",
+      "HcU(HcM0f",
+      "HcU(HcM0",
+      "o4$H",
+      "HcU(HcM0",
+      "o4$H",
+      "M(VWH",
+      "HcU(HcM0f",
+      "HcU(HcM0",
+      "o4$H"
+    ]
+  },
+  "threat_score": 35,
+  "verdict": "CLEAN"
+}

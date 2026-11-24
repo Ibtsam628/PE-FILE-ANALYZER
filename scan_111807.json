@@ -1,0 +1,663 @@
+{
+    "hashes": {
+        "md5": "1d23c837e0b0445d46a09311bca53d2c",
+        "sha1": "3b6cbe8e10ea1bab9e58c11e5a743ac753c0eca2",
+        "sha256": "1a61e611e43a69722750ba6aaa815edd93708b688ceaedcc74e4c1aee1e80a0c"
+    },
+    "headers": {
+        "machine": "0x14c",
+        "sections": 5,
+        "timestamp": "2019-07-30 13:52:45",
+        "entry_point": "0x1000",
+        "base": "0x400000",
+        "subsystem": 3
+    },
+    "sections": [
+        {
+            "name": ".code",
+            "addr": "0x1000",
+            "vsize": 14462,
+            "rsize": 14848,
+            "entropy": 5.53,
+            "packed": false
+        },
+        {
+            "name": ".text",
+            "addr": "0x5000",
+            "vsize": 55650,
+            "rsize": 55808,
+            "entropy": 6.56,
+            "packed": false
+        },
+        {
+            "name": ".rdata",
+            "addr": "0x13000",
+            "vsize": 13221,
+            "rsize": 13312,
+            "entropy": 7.11,
+            "packed": true
+        },
+        {
+            "name": ".data",
+            "addr": "0x17000",
+            "vsize": 6028,
+            "rsize": 4608,
+            "entropy": 5.1,
+            "packed": false
+        },
+        {
+            "name": ".rsrc",
+            "addr": "0x19000",
+            "vsize": 1192,
+            "rsize": 1536,
+            "entropy": 5.07,
+            "packed": false
+        }
+    ],
+    "imports": [
+        {
+            "dll": "MSVCRT.dll",
+            "func": "memset"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "wcsncmp"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "memmove"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "wcsncpy"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "wcsstr"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "_wcsnicmp"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "_wcsdup"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "free"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "_wcsicmp"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "wcslen"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "wcscpy"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "wcscmp"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "wcscat"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "memcpy"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "tolower"
+        },
+        {
+            "dll": "MSVCRT.dll",
+            "func": "malloc"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetModuleHandleW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "HeapCreate"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetStdHandle"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "SetConsoleCtrlHandler"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "HeapDestroy"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "ExitProcess"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "WriteFile"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetTempFileNameW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "LoadLibraryExW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "EnumResourceTypesW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "FreeLibrary"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "RemoveDirectoryW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "EnumResourceNamesW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetCommandLineW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "LoadResource"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "SizeofResource"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "FreeResource"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "FindResourceW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetNativeSystemInfo"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetShortPathNameW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetWindowsDirectoryW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetSystemDirectoryW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "EnterCriticalSection"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "CloseHandle"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "LeaveCriticalSection"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "InitializeCriticalSection"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "WaitForSingleObject"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "TerminateThread"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "CreateThread"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetProcAddress"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetVersionExW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "Sleep"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "WideCharToMultiByte"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "HeapAlloc"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "HeapFree"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "LoadLibraryW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetCurrentProcessId"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetCurrentThreadId"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetModuleFileNameW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "PeekNamedPipe"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "TerminateProcess"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetEnvironmentVariableW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "SetEnvironmentVariableW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetCurrentProcess"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "DuplicateHandle"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "CreatePipe"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "CreateProcessW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetExitCodeProcess"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "SetUnhandledExceptionFilter"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "HeapSize"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "MultiByteToWideChar"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "CreateDirectoryW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "SetFileAttributesW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetTempPathW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "DeleteFileW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetCurrentDirectoryW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "SetCurrentDirectoryW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "CreateFileW"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "SetFilePointer"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "TlsFree"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "TlsGetValue"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "TlsSetValue"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "TlsAlloc"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "HeapReAlloc"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "DeleteCriticalSection"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "InterlockedCompareExchange"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "InterlockedExchange"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetLastError"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "SetLastError"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "UnregisterWait"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "GetCurrentThread"
+        },
+        {
+            "dll": "KERNEL32.dll",
+            "func": "RegisterWaitForSingleObject"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "CharUpperW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "CharLowerW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "MessageBoxW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "DefWindowProcW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "DestroyWindow"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "GetWindowLongW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "GetWindowTextLengthW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "GetWindowTextW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "UnregisterClassW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "LoadIconW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "LoadCursorW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "RegisterClassExW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "IsWindowEnabled"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "EnableWindow"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "GetSystemMetrics"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "CreateWindowExW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "SetWindowLongW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "SendMessageW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "SetFocus"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "CreateAcceleratorTableW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "SetForegroundWindow"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "BringWindowToTop"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "GetMessageW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "TranslateAcceleratorW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "TranslateMessage"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "DispatchMessageW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "DestroyAcceleratorTable"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "PostMessageW"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "GetForegroundWindow"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "GetWindowThreadProcessId"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "IsWindowVisible"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "EnumWindows"
+        },
+        {
+            "dll": "USER32.DLL",
+            "func": "SetWindowPos"
+        },
+        {
+            "dll": "GDI32.DLL",
+            "func": "GetStockObject"
+        },
+        {
+            "dll": "COMCTL32.DLL",
+            "func": "InitCommonControlsEx"
+        },
+        {
+            "dll": "SHELL32.DLL",
+            "func": "ShellExecuteExW"
+        },
+        {
+            "dll": "SHELL32.DLL",
+            "func": "SHGetFolderLocation"
+        },
+        {
+            "dll": "SHELL32.DLL",
+            "func": "SHGetPathFromIDListW"
+        },
+        {
+            "dll": "WINMM.DLL",
+            "func": "timeBeginPeriod"
+        },
+        {
+            "dll": "OLE32.DLL",
+            "func": "CoInitialize"
+        },
+        {
+            "dll": "OLE32.DLL",
+            "func": "CoTaskMemFree"
+        },
+        {
+            "dll": "SHLWAPI.DLL",
+            "func": "PathAddBackslashW"
+        },
+        {
+            "dll": "SHLWAPI.DLL",
+            "func": "PathRenameExtensionW"
+        },
+        {
+            "dll": "SHLWAPI.DLL",
+            "func": "PathQuoteSpacesW"
+        },
+        {
+            "dll": "SHLWAPI.DLL",
+            "func": "PathRemoveArgsW"
+        },
+        {
+            "dll": "SHLWAPI.DLL",
+            "func": "PathRemoveBackslashW"
+        }
+    ],
+    "suspicious_apis": [
+        {
+            "cat": "EVASION",
+            "api": "Sleep",
+            "dll": "KERNEL32.dll"
+        }
+    ],
+    "strings": {
+        "urls": [],
+        "ips": [
+            "6.0.0.0",
+            "1.0.0.0"
+        ],
+        "samples": [
+            "!This program cannot be run in DOS mode.",
+            ".code",
+            "`.text",
+            "`.rdata",
+            "@.data",
+            ".rsrc",
+            "hlpA",
+            "hdpA",
+            "htpA",
+            "hdpA",
+            "l$8X",
+            "\\$8C",
+            "t$PX",
+            "\\$TK;\\$(",
+            "3\\$0S",
+            "l$@X",
+            "\\$<C",
+            "@_[]",
+            "$;D$",
+            "D$(P",
+            "D$,P",
+            "T$,R",
+            "PPPPPP",
+            "PPPPPP",
+            "PPPP",
+            "ZPh(",
+            "ZPhd",
+            "PPPP",
+            "\\$0CS",
+            "D$$P",
+            "T$ R",
+            ";D$ ",
+            "D$(P",
+            "D$,P",
+            "D$,h",
+            "D$<P",
+            "D$<P",
+            "D$<P",
+            "T$8R",
+            "PPPPPP",
+            "PPPPPP",
+            "PPPP",
+            "D$ P",
+            "PPPPPP",
+            "$u$R",
+            "$u)R",
+            "$u)R",
+            "$u)R",
+            "$u)R",
+            "$u)R"
+        ]
+    },
+    "threat_score": 50,
+    "verdict": "SUSPICIOUS"
+}
